@@ -1,0 +1,1 @@
+# macos-cpu-temp
