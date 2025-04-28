@@ -21,6 +21,10 @@ dependencies {
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
+
+    // JNA for native macOS API access
+    implementation("net.java.dev.jna:jna:5.13.0")
+    implementation("net.java.dev.jna:jna-platform:5.13.0")
 }
 
 compose.desktop {
